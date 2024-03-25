@@ -41,5 +41,35 @@ public class Main {
 
         System.out.println("****************************************\n");
 
+        Calculadora somando = new Calculadora();
+
+        somando.n1 = 20;
+        somando.n2 = 10;
+
+        System.out.println("Resultado "+ somando.somar());
+
+        System.out.println("############################################################");
+
+        // Criando uma fila
+        Fila fila = new Fila(5);
+
+        // Adicionando elementos à fila
+        fila.enfileirar(10);
+        fila.enfileirar(20);
+        fila.enfileirar(30);
+
+        // Imprimindo o tamanho da fila
+        System.out.println("Tamanho da fila: " + fila.tamanho());
+
+        // Imprimindo o primeiro e último elementos da fila
+        System.out.println("Primeiro elemento da fila: " + fila.primeiro());
+        System.out.println("Último elemento da fila: " + fila.ultimo());
+
+        // Removendo elementos da fila
+        System.out.println("Elemento desenfileirado: " + fila.desenfileirar());
+
+        // Imprimindo o primeiro elemento da fila após a remoção
+        System.out.println("Novo primeiro elemento da fila: " + fila.primeiro());
+        
     }
 }
