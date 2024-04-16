@@ -3,7 +3,7 @@
 @import url("https://use.typekit.net/exu3bek.css");
 
 :root {
-    --fint-family-aileron: "Aileron", sans-serif;
+    --font-family: "Aileron", sans-serif;
     --primary-color: #049dbcad;
     --secund-color: #1e1c24;
     --backgroundcolor: #29292e;
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: var(--fint-family-aileron);
+    font-family: var(--font-family);
     font-style: normal; 
     background-color: var(--backgroundcolor);
     width: 100%;
@@ -198,116 +198,3 @@ a {
 }
 
 
-/**************************************************************/
-/*SECTION PARCEIROS********************************************/
-/**************************************************************/
-
-.parceiros {
-    background-color: var(--primary-color);
-    height: 100px;
-}
-
-.parceiros .area7 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.parceiros .area7 img {
-    padding: 15px;
-}
-
-
-
-
-/**************************************************************/
-/*SECTION RODAPE***********************************************/
-/**************************************************************/
-
-.rodape {
-    background-color: var(--backgroundcolor);
-    width: 100%;
-    padding: 40px;
-}
-.rodape .area8 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.rodape .area8 h4 {
-    color: var(--alpha-color);
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 30px;
-    letter-spacing: 1px;
-    margin: 20px 0px;
-}
-
-.rodape .area8 a {
-    color: var(--alpha-color);
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.9px;
-    margin-bottom: 10px;
-    transition: 0.10s;
-}
-
-.rodape .area8 a:hover {
-    color: var(--primary-color);
-    transform: 0.10s;
-}
-
-.rodape .area8 .rodape1 {
-    width: 300px;
-}
-
-.rodape .area8 .rodape1 img {
-    height: 40px;
-}
-
-.rodape .area8 .rodape1 p {
-    color: var(--alpha-color);
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 25px;
-    letter-spacing: 0.32px;
-    padding-right: 15px;
-}
-
-.rodape .area8 .rodape2 {
-    width: 250px;
-    padding: 10px;
-}
-
-.rodape .area8 .rodape3 {
-    width: 250px;
-    padding: 10px;
-}
-
-.rodape .area8 .rodape4 {
-    width: 250px;
-    padding: 10px;
-}
-
-.rodape .area9 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.rodape .area9 p {
-    color: var(--alpha-color);
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 25px;
-    letter-spacing: 0.32px;
-    margin: 15px;
-    padding: 15px;
-}
-
-.rodape .area9 p span {
-    color: var(--primary-color);
-}
