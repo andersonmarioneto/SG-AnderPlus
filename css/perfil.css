@@ -1,0 +1,64 @@
+/* Style by: Anderson Mário Neto | UI Designer */
+
+@import url("https://use.typekit.net/exu3bek.css");
+
+:root {
+    --font-family: "Aileron", sans-serif;
+    --primary-color: #049dbcad;
+    --secund-color: #1e1c24;
+    --backgroundcolor: #29292e;
+    --alpha-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-style: normal; 
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**************************************************************/
+/*SECTION PERFIL***********************************************/
+/**************************************************************/
+
+.perfil .area2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    color: var(--alpha-color);
+}
+
+.perfil .area2 .esquerda {
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.perfil .area2 .direita {
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.perfil .glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
+}

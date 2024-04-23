@@ -32,8 +32,8 @@ a {
 /*SECTION PARCEIROS********************************************/
 /**************************************************************/
 
-.parceiros {
-    background-color: var(--primary-color);
+.parceiros {/* 
+    background-color: var(--primary-color); */
     height: 100px;
 }
 
@@ -41,6 +41,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .parceiros .area7 img {
