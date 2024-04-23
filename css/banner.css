@@ -1,0 +1,102 @@
+/* Style by: Anderson Mário Neto | UI Designer */
+
+@import url("https://use.typekit.net/exu3bek.css");
+
+:root {
+    --font-family: "Aileron", sans-serif;
+    --primary-color: #049dbcad;
+    --secund-color: #1e1c24;
+    --backgroundcolor: #29292e;
+    --alpha-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-style: normal; 
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**************************************************************/
+/*SECTION BANNER***********************************************/
+/**************************************************************/
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--alpha-color);
+    width: 100%;
+    background-image: linear-gradient(var(--primary-color), var(--backgroundcolor));
+}
+
+.banner .topo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.banner .topo .area2 {
+    position: static;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    height: 200px;
+}
+
+
+.banner .topo .area2 .title-banner {
+    font-size: 30pt;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;    
+    letter-spacing: 1px;
+}
+
+.banner .topo .area2 .span-banner {
+    color: var(--primary-color);
+}
+
+.banner .topo .area2 .barra {
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 75px;
+    border-radius: 2px;
+}
+
+.banner .topo .area2 p {
+    font-size: 10pt;
+    text-align: left;
+    line-height: 20px;  
+}
+
+.banner .topo .area3 {
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.banner .topo .area3 img {
+    position: relative;
+    height: 400px;
+} 

@@ -1,0 +1,49 @@
+/* Style by: Anderson Mário Neto | UI Designer */
+
+@import url("https://use.typekit.net/exu3bek.css");
+
+:root {
+    --font-family: "Aileron", sans-serif;
+    --primary-color: #049dbcad;
+    --secund-color: #1e1c24;
+    --backgroundcolor: #29292e;
+    --alpha-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-style: normal; 
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**************************************************************/
+/*SECTION BANNER***********************************************/
+/**************************************************************/
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 2rem;
+    color: var(--alpha-color);
+    width: 100%;
+    background-image: linear-gradient(var(--primary-color), var(--backgroundcolor));
+}
+
+/* .banner .title-box {
+    margin-top: 100px;
+} */
