@@ -1,0 +1,191 @@
+/* Style by: Anderson Mário Neto | UI Designer */
+
+@import url("https://use.typekit.net/exu3bek.css");
+
+:root {
+    --font-family: "Aileron", sans-serif;
+    --primary-color: #049dbcad;
+    --secund-color: #1e1c24;
+    --backgroundcolor: #29292e;
+    --alpha-color: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    font-style: normal; 
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**************************************************************/
+/*SECTION PRODUCT**********************************************/
+/**************************************************************/
+
+.product {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.product .areaP {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
+    width: 100%;
+    margin: 40px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap; /* flex-wrap: wrap-reverse; - listar de forma decrescente */
+    justify-content: center;
+}
+
+.product .areaP .img {
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    background-color: var(--alpha-color);
+}
+
+.product .areaP .img .imagem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.product .areaP .descricao {
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.product .areaP .descricao .titulo {
+    text-align: left;
+    font-size: 24pt;
+    font-weight: 900;
+    color: var(--alpha-color);
+    font-family: var(--font-family);
+    margin-top: 10px;
+} 
+
+.product .areaP .descricao .preco {
+    text-align: left;
+    font-size: 20pt;
+    font-weight: 900;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+}
+
+.product .areaP .descricao .desc {
+    text-align: left;
+    font-size: 11pt;
+    font-weight: 200;
+    font-family: var(--font-family);
+    color: var(--alpha-color);
+    opacity: 30%;
+}
+
+.product .areaP .descricao .perfil a {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+.product .areaP .descricao .perfil .foto {
+    background-color: var(--alpha-color);
+    padding: 1px;
+    border-radius: 100%;
+    height: 50px;
+}
+
+.product .areaP .descricao .perfil .texto {
+    margin: 10px;
+}
+
+.product .areaP .descricao .perfil .texto .nome {
+    text-align: left;
+    font-size: 12pt;
+    font-weight: 900;
+    color: var(--alpha-color);
+    font-family: var(--font-family);
+    margin-top: 10px;
+}
+
+.product .areaP .descricao .perfil .texto .data {
+    text-align: left;
+    font-size: 10pt;
+    font-weight: 200;
+    font-family: var(--font-family);
+    color: var(--alpha-color);
+    opacity: 30%;
+}
+
+.product .areaP .descricao .button {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.product .areaP .descricao .button .btn {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--alpha-color);
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    transition: 0.1s;
+    width: 70%;
+}
+
+.product .areaP .descricao .button  .btn:hover {
+    background: var(--secund-color);
+    transform: 0.1s;
+}
+
+.product .areaP .descricao .button .voltar {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    justify-content: center;
+    background-color: var(--backgroundcolor);
+    color: var(--alpha-color);
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.1s;
+    width: 70%;
+}
+
+
+.product .areaP .descricao .button .voltar:hover {
+    background-color: var(--secund-color);
+    transition: 0.1s;
+}

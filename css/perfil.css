@@ -69,7 +69,31 @@ a {
 }
 
 .perfil .area2 .esquerda .infoPerfil p {
+    text-align: left;
+    font-size: 10pt;
+    text-align: center;
+    color: var(--alpha-color);
+    font-family: var(--font-family);
     margin-top: 10px;
+}
+
+.perfil .area2 .esquerda .infoPerfil .nome {
+    text-align: left;
+    font-size: 14pt;
+    font-weight: 900;
+    text-align: center;
+    color: var(--alpha-color);
+    font-family: var(--font-family);
+    margin-top: 10px;
+}
+.perfil .area2 .esquerda .infoPerfil .data {
+    text-align: left;
+    font-size: 10pt;
+    font-weight: 200;
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--alpha-color);
+    opacity: 30%;
 }
 
 .perfil .area2 .esquerda .infoPerfil .span {
