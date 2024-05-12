@@ -32,18 +32,7 @@ a {
 /*SECTION BOX MESSENGER ***************************************/
 /**************************************************************/
 .product {
-    display: flex;
     justify-content: flex-start;
-}
-
-.productE {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.productD {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .areaP {
@@ -51,11 +40,31 @@ a {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.011);
     transform: 0.1s;
 
     margin: 40px; 
     padding: 10px;
+}
+
+.productD .areaP {
+    background: linear-gradient(135deg,  rgba(4, 159, 190, 0.678), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.011);
+    transform: 0.1s;
+
+    margin: 40px; 
+    padding: 10px;
+}
+
+.areaT:hover {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
+    transform: 0.1s;
 }
 
 .areaP .perfil {
@@ -101,5 +110,47 @@ a {
     opacity: 80%;
     margin-top: 10px;
     padding: 10px;
-    width: 60vw;
+    width: 50vw;
+}
+
+/**********************************************************************************************************************/
+
+.pai {
+    display: flex;
+    flex-direction: row;
+}
+
+.filho {
+    margin-top: 150px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    width: 100px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--alpha-color);
+    font-weight: 700;
+    transform: 0.1s;
+}
+
+button:hover {
+    transform: 0.1s;
+    background-color: var(--backgroundcolor);
 }
