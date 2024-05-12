@@ -19,7 +19,7 @@
 body {
     font-family: var(--font-family);
     font-style: normal; 
-    background-color: var(--backgroundcolor);
+    background-color: #fff;
     width: 100%;
     height: 100vh;
 }
@@ -111,7 +111,7 @@ a {
     font-weight: 200;
     font-family: var(--font-family);
     color: var(--alpha-color);
-    opacity: 30%;
+    opacity: 80%;
 }
 
 .product .areaP .button {

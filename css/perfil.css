@@ -19,7 +19,7 @@
 body {
     font-family: var(--font-family);
     font-style: normal; 
-    background-color: var(--backgroundcolor);
+    background-color: var(--secund-color);
     width: 100%;
     height: 100vh;
 }
@@ -93,7 +93,7 @@ a {
     text-align: center;
     font-family: var(--font-family);
     color: var(--alpha-color);
-    opacity: 30%;
+    opacity: 80%;
 }
 
 .perfil .area2 .esquerda .infoPerfil .span {

@@ -81,14 +81,14 @@ a {
     font-weight: 200;
     font-family: var(--font-family);
     color: var(--alpha-color);
-    opacity: 30%;
+    opacity: 80%;
     margin-top: 10px;
 }
 
 .product .areaP .descricao {
     text-align: left;
     font-size: 10pt;
-    font-weight: 200;
+    font-weight: 700;
     font-family: var(--font-family);
     color: var(--alpha-color);
     opacity: 80%;

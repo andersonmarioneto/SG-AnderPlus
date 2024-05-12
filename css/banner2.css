@@ -41,7 +41,7 @@ a {
     gap: 2rem;
     color: var(--alpha-color);
     width: 100%;
-    background-image: linear-gradient(var(--primary-color), var(--backgroundcolor));
+    background-color: var(--secund-color);
 }
 
 /* .banner .title-box {

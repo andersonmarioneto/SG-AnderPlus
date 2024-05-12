@@ -105,13 +105,20 @@ a {
     font-weight: 200;
     font-family: var(--font-family);
     color: var(--alpha-color);
-    opacity: 30%;
+    opacity: 80%;
 }
 
 .product .areaP .descricao .perfil a {
     display: flex;
     flex-direction: row;
     width: 250px;
+    transform: 0.1s;
+}
+
+.product .areaP .descricao .perfil a:hover {
+    background-color: #049dbc1f;
+    transform: 0.1s;
+    border-radius: 50px;
 }
 
 .product .areaP .descricao .perfil .foto {
@@ -140,7 +147,7 @@ a {
     font-weight: 200;
     font-family: var(--font-family);
     color: var(--alpha-color);
-    opacity: 30%;
+    opacity: 8  0%;
 }
 
 .product .areaP .descricao .button {
